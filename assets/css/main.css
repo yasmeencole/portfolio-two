@@ -12,26 +12,29 @@
 .tech-container {
 	display: flex;
     flex-wrap: wrap;
-	/* flex-direction: row; */
-	/* flex-basis: 10%; */
 	justify-content: space-evenly;
-	/* width: 100%; */
-    margin: auto;
+	margin-left: 10em;
+	margin-top: 1em;
 	/* padding: 0; */
-	/* height: 2em; */
-	/* gap: 1rem; */
 }
 
 .tech-icon-image {
 	flex-basis: 25%;
-	margin: -.5em;
-	/* max-width: ; */
-	padding: .8rem;
+	/* margin: -.5em; */
+	padding: .8em;
 	/* min-width: 100px; */
 }
 
 img {
-	width: 30%;
+	width: 35%;
+}
+
+.tech-stack-header {
+	/* margin-left: 29em;
+	margin-top: 5em; */
+	margin-left: 25em;
+	justify-content: center;
+	/* margin: 0 0 1em 0; */
 }
 
 html, body, div, span, applet, object,
